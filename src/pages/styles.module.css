@@ -1,0 +1,22 @@
+.app {
+    padding: 34px 37px;
+    width: 732px;
+    margin: auto;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 0 -15px;
+}

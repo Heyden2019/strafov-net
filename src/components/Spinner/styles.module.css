@@ -1,0 +1,28 @@
+.spinner {
+    height: 77px;
+    width: 77px;
+    position: relative;
+}
+
+.dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 7.45px;
+    height: 7.45px;
+    border-radius: 50%;
+
+    background: #383A39;
+
+    -webkit-animation: fadeit 1s linear infinite;
+    animation: fadeit 1s linear infinite;
+}
+
+@-webkit-keyframes fadeit{
+	0%{ opacity:1; }
+	100%{ opacity:0;}
+}
+@keyframes fadeit{
+	0%{ opacity:1; }
+	100%{ opacity:0;}
+}

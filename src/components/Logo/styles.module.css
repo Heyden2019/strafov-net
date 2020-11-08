@@ -1,0 +1,32 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.rect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+
+    background: #63C556;
+    border-radius: 4px;
+}
+
+.logo__title {
+    margin-left: 10px;
+    height: 26px;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.title__medium {
+    font-family: "GTWalsheimPro-Medium";
+}
+
+.title__bold {
+    font-family: "GTWalsheimPro-Bold";
+}
